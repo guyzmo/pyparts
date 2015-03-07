@@ -23,10 +23,12 @@ long_description = """
 """.format(**read('README.md'))
 
 setup(name='pyparts',
-      version='1.0',
+      version='0.3',
       description="Python electronic parts tool",
       long_description=long_description,
       classifiers=[
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.4',
           'Development Status :: 4 - Beta',
           'License :: OSI Approved',
           'Operating System :: Unix',
@@ -40,6 +42,7 @@ setup(name='pyparts',
       zip_safe=False,
       install_requires=[
           'pyparts',
+          'pyoctopart',
           'docopt',
           'setuptools',
       ],
@@ -52,5 +55,5 @@ setup(name='pyparts',
 
 if "install" in sys.argv:
     print("""
-Python Pluzz downloader is now installed!
+Python parts commandline utility installed!
 """)
