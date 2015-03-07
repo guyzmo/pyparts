@@ -1,0 +1,3 @@
+[submodule "pyparts/octopart"]
+	path = pyparts/octopart
+	url = https://github.com/jbaker0428/Python-Octopart-API
