@@ -2,6 +2,8 @@
 
 Utility to get information about parts from agregators.
 
+You'll find the sources of the project on https://github.com/guyzmo/pyparts
+
 ## Usage
 
     Usage:
