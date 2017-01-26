@@ -139,10 +139,11 @@ you can copy the API key, e.g. 'ab12cd45' and use it the following way:
     % pyparts -k ab12cd45 lookup 'NE555'
 
 or store it in a config file, to avoid putting the key at each invocation of the tool,
-default location being `~/.config/pyparts.cfg`:
+default location being `~/.config/pyparts.cfg`. This file should be an INI
+file, with the key stored as the 'apikey' value in the [general] section:
 
     [general]
-    apikey='ab12cd45'
+    apikey = ab12cd45
 
 or if you want to store your config file elsewhere, you can:
 
