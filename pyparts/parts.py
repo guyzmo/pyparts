@@ -32,7 +32,7 @@ Commands:
   lookup         Search part
   specs          Get specs for a part
   datasheet      Download part's datasheet
-  open           Open part's page in browser
+  show           Open part's page in browser
   help           Give help for a command
 
 See `pyparts help <command>` to get more information on a command
@@ -429,7 +429,7 @@ class CLI:
                 'Search for a part\'s product name.\n' \
                 '\n\n'
     search = lookup.replace('lookup', 'search')
-    specs =     ' Usage: pyparts specs [options] <part>\n' \
+    specs =     'Usage: pyparts specs [options] <part>\n' \
                 '\n' \
                 'Outputs the part\'s specifications.\n' \
                 '\n'
@@ -438,8 +438,8 @@ class CLI:
                 'Download and show the datasheet(s) of a given part\n' \
                 '\n' \
                 'Actions:\n' \
-                '    open    Open datasheet' \
-                '    save    Save datasheet' \
+                '    open    Open datasheet\n' \
+                '    save    Save datasheet\n' \
                 '\n' \
                 'Options:\n' \
                 '    --command <cmd>  Command to use for opening.    [default: {open_cmd}]\n' \
