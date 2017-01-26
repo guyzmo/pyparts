@@ -448,7 +448,7 @@ class CLI:
     show =      'Usage: pyparts show [options] <part>\n' \
                 '\n' \
                 'Options:\n' \
-                '--print          Do not open, just printout URL.\n' \
+                '    --print          Do not open, just printout URL.\n' \
                 '\n'
     version =   'Pyparts v{version}: command line tool to search for parts\n' \
                 '\n' \
