@@ -163,7 +163,7 @@ class PyPartsOctopart(PyPartsBase):
     '''
     def __init__(self, apikey, verbose=False):
         '''
-        instanciate an engine
+        instantiate an engine
         '''
         self._e = Octopart(apikey=apikey, verbose=verbose)
 
