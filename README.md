@@ -21,7 +21,7 @@ You'll find the sources of the project on https://github.com/guyzmo/pyparts
       lookup         Search part
       specs          Get specs for a part
       datasheet      Download part's datasheet
-      open           Open part's page in browser
+      show           Open part's page in browser
       help           Give help for a command
 
     See `pyparts.py help <command>` to get more information on a command
